@@ -1,0 +1,29 @@
+<!--pages/my/my.wxml-->
+<view style="height: 40rpx;"></view>
+<view class="top">
+  <view class="head">
+    <image src="head.png"></image>
+  </view>
+  <view class="title">
+    <view class="name">
+      Exungsh
+    </view>
+    <view class="intro">
+      简介:test
+    </view>
+    <view class="focus">
+      51 关注 | 48 朋友
+    </view>
+  </view>
+</view>
+<view class="activity">testsddfs</view>
+<view class="blacklist"> 黑名单</view>
+<view class="settings">隐私设置</view>
+<view style="display: flex;align-items: center;height: 80rpx;background-color: #f0f9f6;margin-bottom: 10rpx;">
+    <text style="padding-left:30rpx;">微信号</text>
+    <input type="number" placeholder="请输入手机号" style="flex: 1;text-align: center;" name="place"/>
+  </view>
+<view class="canbesearched">
+  他人是否可在朋友界面找到你
+  <switch class="s1" >{{}}</switch>
+</view>
