@@ -1,0 +1,33 @@
+<!--pages/join.wxml-->
+
+
+<!-- <view class="backgroundimage" >
+  <image src="/pages/my/head.png" mode="heightFix"></image>
+</view> -->
+<swiper indicator-dots="true">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <image mode="widthFix" src="{{item}}" ></image>
+          </swiper-item>
+        </block>
+</swiper>
+<view class="activitydetail">
+  <view class="activityname">本活动的名称</view>
+  <view class="num">招募人数：5/10{{data.num}}</view>
+  <view class="date">活动日期：11.9</view>
+  <view class="address">活动地址: 体育馆</view>
+  <view class="limits">活动要求：男女不限</view>
+  <view class="tags">活动标签：运动唱跳rap篮球</view>
+  <view class="description">活动详情：羽毛球激情双打</view>
+
+  <view class="signednum">已报名人数：</view>
+  <view class="peoplelist">
+    <block wx:for="{{background}}" wx:key="*this">
+    <view class="peopledetail">
+      <image class="headimage" src="{{item}}" ></image>
+      <text>小俞</text>
+    </view>
+    </block>
+  </view>
+</view>
+<view class="signin" bindtap="signin">我要报名</view>

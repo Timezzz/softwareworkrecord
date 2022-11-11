@@ -1,0 +1,44 @@
+/* pages/join.wxss */
+swiper{
+  width: 100%;
+}
+swiper swiper-item{
+  width: 100%;
+}
+swiper-item image{
+  display: block;
+  width: 100%;
+}
+.activityname{
+  text-align: center;
+}
+.signin{
+  position: fixed;
+  bottom: 5%;
+  left: 40%;
+}
+.signednum{
+  font-size: 32rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+}
+.peoplelist{
+  height: 300rpx;
+  display: flex;
+  overflow: auto;
+  font-size: 32rpx;
+  align-items: center;
+}
+.peoplelist .peopledetail{
+  width: 200rpx;
+  text-align: center;
+  margin-right: 20rpx;
+}
+.peoplelist .peopledetail image{
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 30rpx;
+}
+.peoplelist .peopledetail text{
+  text-align: center;
+}
